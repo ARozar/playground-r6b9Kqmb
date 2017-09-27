@@ -9,9 +9,8 @@
     <PackageReference Include="xunit" Version="2.2.0" />
     <PackageReference Include="System.ValueTuple" Version="*"/>
     <PackageReference Include="xunit.runner.visualstudio" Version="2.2.0" />
-    <PackageReference Include="System.Runtime.Extensions" Version="4.1.0"/>
-    <PackageReference Include="System.Linq.Expressions" Version="4.1.0"/>
-    <PackageReference Include="System.Threading.Tasks" Version="4.0.11"/>
-    <PackageReference Include="System.ComponentModel.TypeConverter" Version="4.1.0" />   
+    <PackageReference Include="System.Runtime.Extensions" Version="*"/>
+    <PackageReference Include="System.Linq.Expressions" Version="*"/>
+    <PackageReference Include="System.Threading.Tasks" Version="*"/>   
   </ItemGroup>
 </Project>
