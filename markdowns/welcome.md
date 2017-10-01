@@ -13,9 +13,29 @@ var fullName = String.Format("{0} {1} {2}", title, firstName, lastName);
 ```
 We can do:
 
-```csharp
+```C# runnable
+// { autofold
+using System;
+
+class Hello 
+{
+    static void Main() 
+    {
+// }
+
+var title = "Mr";
+var firstName = "Joe";
+var lastName = "Bloggs";
+
 var fullName = $"{title} {firstName} {lastName}";
+Console.WriteLine(fullName);
+
+// { autofold
+    }
+}
+// }
 ```
+
 As well as creating readable code it is also performant. As all C# developers know it is best practice to use a StringBuilder when concatenating multiple strings due to string immutability.  Fortunately, this feature is merely syntactic sugar and the IL that is generated makes a call to System.String.Format which uses the StringBuilder class under the hood.
 
 ## Auto Property Initializers (C# 6)
