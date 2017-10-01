@@ -2,6 +2,8 @@ C# is a language that has really evolved over the years and is now the standard 
 
 Here is a list of five features that I've found increasingly more useful as part of my regular workflow.
 
+NB: This is an interactive version of the original article from [justintimecoder.com](https://justintimecoder.com/5-features-that-make-c-6-7-more-fun/).
+
 ## String Interpolation (C# 6)
 This is such a common sense addition to the language.  Instead of concatenating strings or using placeholders based on ordinal position such as:
 ```csharp
@@ -260,5 +262,7 @@ The thing that just vexes me slightly is that sometimes a switch statement can b
 
 ## Final Thoughts
 It really is a great time to be using both C# and the .Net Framework.  C# continues to evolve in its expressiveness and flexibility making it a great choice for server side processing as well as UI platforms.  That coupled with the increasing performance improvements found in [.Net Core](https://blogs.msdn.microsoft.com/dotnet/2017/06/07/performance-improvements-in-net-core/) and [most notably in Asp.Net Core](https://blogs.msdn.microsoft.com/dotnet/2017/06/07/performance-improvements-in-net-core/) (not the fastest of them all but OMG when compared to where recent versions were) and its ever expanding reach (now an option for the Linux world) the language and platform seem to be headed in a positive and upward trajectory.
+
+For more tutorials on web development checkout my [other tutorials here](https://tech.io/users/2139342) or for my latest content check me out on [justintimecoder.com](https://justintimecoder.com/author/andrew/).
 
 PS: If you have a favorite feature that I've missed I'd love to hear about your favorite new aspect of the language.
