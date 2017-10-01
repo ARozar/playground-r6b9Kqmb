@@ -183,7 +183,7 @@ public ValueTuple<bool, string> Login(string username, string password)
     return new ValueTuple<bool, string>(false, AccountLockedMessage);
 }
 ```
-Our named elements are not more at runtime!  For example, when serializing our type we get:
+Our named elements are no more at runtime!  For example, when serializing our type we get:
 ```javascript
 { 
     "Item1": false, 
