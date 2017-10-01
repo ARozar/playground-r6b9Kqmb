@@ -33,7 +33,7 @@ var fullName = $"{title} {firstName} {lastName}";
 ```
 As well as creating readable code it is also performant. As all C# developers know it is best practice to use a StringBuilder when concatenating multiple strings due to string immutability.  Fortunately, this feature is merely syntactic sugar and the IL that is generated makes a call to System.String.Format which uses the StringBuilder class under the hood.
 
-##Auto Property Initializers (C# 6)
+## Auto Property Initializers (C# 6)
 Another feature that really makes for terse and readable code is Auto Property Initialization.  Quite often we need to initialize default values in the constructor of a class such as in the example below. 
 ```csharp
 public class Customer
@@ -61,7 +61,7 @@ public class Customer
 }
 ```
 Great when used appropriately both for the creator of the code as well as those reading it later.  And it's great when prototyping and trying things out.
-##Expression Bodied Members (C# 6)
+## Expression Bodied Members (C# 6)
 One of the most tedious tasks for any developer is to have to create a property getter just to offer a basic computed property such as the combination of a First and Last name.  Expression-bodied members offer us a nice new shorthand syntax for such situations.
 
 ```csharp
@@ -86,7 +86,7 @@ public class SalesPerson
 }
 ```
 Like so many other of the other recent features in the language, this really adds to the expressive power of the code that can be written.  Something that has been at the forefront of the languages' evolution since .Net 3.5 introduced LINQ, extension methods, and anonymous types. 
-##Nameof (C# 6)
+## Nameof (C# 6)
 From template bindings in XAML, Razor Syntax that creates model-bound HTML or even logging, there are many situations where we want to record or express the name of a Type, Method or more commonly property.  Doing this as a string literal is both the most obvious and obviously worst way of doing this.  A more sophisticated approach might be to try the following:
 
 ```csharp
@@ -125,7 +125,7 @@ This gives us a refactor safe way of naming members of a type.  Expressions are 
 
 Jeremy Bytes has a [great post](https://jeremybytes.blogspot.co.uk/2016/02/callermembername-vs-nameof-in.html) on this subject in the context of change notification of properties and computed properties.
 
-##Tuples (ValueTuples C# 7)
+## Tuples (ValueTuples C# 7)
 One big limitation of C# has always been the lack of an easy way to return multiple values from a method.  Whilst it's possible to use out parameters or create a class to hold the return values, the first solution creates a code flow that is in-elegant and the second can very quickly result in class explosion and creates a level of obstruction that simply doesn't exist in many other languages.  With the new ValueTuple, we finally have a great means (as well as expressive and intuitive syntax) by which we can do this:
 
 ```csharp
@@ -192,7 +192,7 @@ Serializers use reflection and obviously, our syntactic sugar doesn't exist at r
 
 Of course, it's pretty easy to map this to an anonymous type, assuming the tuple has only a few elements. (More than this and I'd start thinking a class definition is in order anyway)  I'm really enthused about this feature as its one of the things I feel developers who come from other languages that offer this kind of flexibility often lament and anything that makes the language more expressive and accessible is a good thing in my humble opinion.
 
-##And an honorable mention for Pattern Matching(C# 7)
+## And an honorable mention for Pattern Matching(C# 7)
 So this is one feature that I have somewhat conflicted views on.  It lets us perform matching on the shape of types so we can for instance do:
 ```csharp
 public static int GetIntValue(object obj)
