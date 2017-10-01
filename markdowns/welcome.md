@@ -108,8 +108,7 @@ From template bindings in XAML, Razor Syntax that creates model-bound HTML or ev
 public static string GetNameOfProperty<TSource, TProperty>(TSource source, Expression<Func<TSource, TProperty>> lambdaOfProperty)
 {
     var memberExpression = lambdaOfProperty.Body as MemberExpression;
-    //in a production app we check for null as
-    //the code might point to a public method
+
     var name = memberExpression.Member.Name;
 
     return name;
