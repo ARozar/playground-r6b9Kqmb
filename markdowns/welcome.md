@@ -105,7 +105,7 @@ C# 5 gave us the "CallerMemberName" attribute.  This allows us to do the followi
 
 ```csharp
 public void LogError(string message, [CallerMemberName]string caller = null)
-   {
+{
             Logger.Error($"Error in {caller} - {message}");        
 }
 ```
@@ -114,7 +114,7 @@ Calling our LogError method will automatically populate the caller variable with
 Enter nameof:
 
 ```csharp
-        public void LogError(string message, [CallerMemberName]string caller = null)
+public void LogError(string message, [CallerMemberName]string caller = null)
 {
     Logger.Error($"Error in {caller} - {message}");
 
