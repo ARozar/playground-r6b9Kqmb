@@ -1,6 +1,6 @@
 title: 5 features that make C# 6 / 7 more fun
 plan:
-- title: Welcome
+- title: 5 features that make C# 6 / 7 more fun
   statement: markdowns/welcome.md
 projects:
   csharp:

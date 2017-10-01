@@ -10,8 +10,7 @@ namespace dotnet
         public void TeamTest()
         {
             var team = new Team();
-            
-            
+ 
             Assert.NotEqual(default(DateTime), team.CreatedDate);
 
             Assert.NotNull(team.Players);
