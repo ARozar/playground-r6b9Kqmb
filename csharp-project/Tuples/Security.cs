@@ -10,8 +10,8 @@ namespace dotnet
 
         public static (bool success, string message) Login(string username, string password)
         {
-            //do some complex logic
-            return (false, AccountLockedMessage);
+            //potentially do some complex logic
+            return (true, "Login was fine");
         }
     }
 }
