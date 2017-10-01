@@ -13,7 +13,7 @@ namespace dotnet
             (var success, var message)  = Security.Login("testUserName","testPassword");
 
             Assert.False(success);
-            Assert.True(message.CompareTo(Security.AccountLockedMessage) == 0);
+            Assert.Equal(message, Security.AccountLockedMessage);
         }
     }
 }
