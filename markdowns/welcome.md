@@ -6,12 +6,6 @@
 
 @[Update the code for the 'CalculateCommission' method to pass the test]({"stubs": ["Members/SalesPerson.cs", "Members/MethodTests.cs"],"command": "dotnet.MemberTests.ExpressionBodiedMethodTest"})
 
-@[Update the code for the 'ReferralLink' property to pass the test]({"stubs": ["NameOf/CustomerReferral.cs", "NameOf/NameOfTests.cs"],"command": "dotnet.MemberNameTests.NameOfTest"})
-
-@[Update the code for the 'GetNumbers' method to pass the test]({"stubs": ["Tuples/Numbers.cs", "Tuples/NumbersTest.cs"],"command": "dotnet.NumbersTests.NumbersTest"})
-
-@[Update the code for the 'Login' method to pass the test]({"stubs": ["Tuples/Security.cs", "Tuples/SecurityTest.cs"],"command": "dotnet.SecurityTests.LoginTest"})
-
 
 
 
@@ -127,6 +121,9 @@ This gives us a refactor safe way of naming members of a type.  Expressions are 
 
 Jeremy Bytes has a [great post](https://jeremybytes.blogspot.co.uk/2016/02/callermembername-vs-nameof-in.html) on this subject in the context of change notification of properties and computed properties.
 
+### Try for yourself
+@[Update the code for the 'ReferralLink' property to pass the test]({"stubs": ["NameOf/CustomerReferral.cs", "NameOf/NameOfTests.cs"],"command": "dotnet.MemberNameTests.NameOfTest"})
+
 ## Tuples (ValueTuples C# 7)
 One big limitation of C# has always been the lack of an easy way to return multiple values from a method.  Whilst it's possible to use out parameters or create a class to hold the return values, the first solution creates a code flow that is in-elegant and the second can very quickly result in class explosion and creates a level of obstruction that simply doesn't exist in many other languages.  With the new ValueTuple, we finally have a great means (as well as expressive and intuitive syntax) by which we can do this:
 
@@ -193,6 +190,13 @@ Our named elements are no more at runtime!  For example, when serializing our ty
 Serializers use reflection and obviously, our syntactic sugar doesn't exist at runtime.
 
 Of course, it's pretty easy to map this to an anonymous type, assuming the tuple has only a few elements. (More than this and I'd start thinking a class definition is in order anyway)  I'm really enthused about this feature as its one of the things I feel developers who come from other languages that offer this kind of flexibility often lament and anything that makes the language more expressive and accessible is a good thing in my humble opinion.
+
+### Try for yourself
+
+@[Update the code for the 'GetNumbers' method to pass the test]({"stubs": ["Tuples/Numbers.cs", "Tuples/NumbersTest.cs"],"command": "dotnet.NumbersTests.NumbersTest"})
+
+@[Update the code for the 'Login' method to pass the test]({"stubs": ["Tuples/Security.cs", "Tuples/SecurityTest.cs"],"command": "dotnet.SecurityTests.LoginTest"})
+
 
 ## And an honorable mention for Pattern Matching(C# 7)
 So this is one feature that I have somewhat conflicted views on.  It lets us perform matching on the shape of types so we can for instance do:
