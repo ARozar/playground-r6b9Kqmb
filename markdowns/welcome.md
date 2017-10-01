@@ -1,14 +1,3 @@
-# Hands-on Demo
-
-@[Update the code for the 'Team' class to pass the test]({"stubs": ["AutoProp/Team.cs", "AutoProp/TeamTest.cs"],"command": "dotnet.TeamTests.TeamTest"})
-
-@[Update the code for the 'FullName' property to pass the test]({"stubs": ["Members/SalesPerson.cs", "Members/PropertyTests.cs"],"command": "dotnet.MemberTests.ExpressionBodiedPropertyTest"})
-
-@[Update the code for the 'CalculateCommission' method to pass the test]({"stubs": ["Members/SalesPerson.cs", "Members/MethodTests.cs"],"command": "dotnet.MemberTests.ExpressionBodiedMethodTest"})
-
-
-
-
 C# is a language that has really evolved over the years and is now the standard bearer for all the platforms that use the .Net runtime.   From its origins as a rival to Java in the area of enterprise software development .Net itself seems to be changing from its origins of one runtime with many languages to one language that runs on every platform.  Fortunately the last 2 versions of the language have seen some really nice additions to the syntax that make the code more expressive, terse and maintainable.
 
 Here is a list of five features that I've found increasingly more useful as part of my regular workflow.
@@ -57,6 +46,10 @@ public class Customer
 }
 ```
 Great when used appropriately both for the creator of the code as well as those reading it later.  And it's great when prototyping and trying things out.
+
+### Try it yourself
+@[Update the code for the 'Team' class to pass the test]({"stubs": ["AutoProp/Team.cs", "AutoProp/TeamTest.cs"],"command": "dotnet.TeamTests.TeamTest"})
+
 ## Expression Bodied Members (C# 6)
 One of the most tedious tasks for any developer is to have to create a property getter just to offer a basic computed property such as the combination of a First and Last name.  Expression-bodied members offer us a nice new shorthand syntax for such situations.
 
@@ -82,6 +75,12 @@ public class SalesPerson
 }
 ```
 Like so many other of the other recent features in the language, this really adds to the expressive power of the code that can be written.  Something that has been at the forefront of the languages' evolution since .Net 3.5 introduced LINQ, extension methods, and anonymous types. 
+
+### Try for yourself
+@[Update the code for the 'FullName' property to pass the test]({"stubs": ["Members/SalesPerson.cs", "Members/PropertyTests.cs"],"command": "dotnet.MemberTests.ExpressionBodiedPropertyTest"})
+
+@[Update the code for the 'CalculateCommission' method to pass the test]({"stubs": ["Members/SalesPerson.cs", "Members/MethodTests.cs"],"command": "dotnet.MemberTests.ExpressionBodiedMethodTest"})
+
 ## Nameof (C# 6)
 From template bindings in XAML, Razor Syntax that creates model-bound HTML or even logging, there are many situations where we want to record or express the name of a Type, Method or more commonly property.  Doing this as a string literal is both the most obvious and obviously worst way of doing this.  A more sophisticated approach might be to try the following:
 
