@@ -6,7 +6,7 @@
 
 @[Try for yourself! Update the code for the 'CalculateCommission' method to pass the test]({"stubs": ["Members/SalesPerson.cs", "Members/MethodTests.cs"],"command": "dotnet.MemberTests.ExpressionBodiedMethodTest"})
 
-@[Try for yourself! Update the code for the 'CalculateCommission' method to pass the test]({"stubs": ["NameOf/CustomerReferral.cs", "NameOf/NameOfTests.cs"],"command": "dotnet.MemberNameTests.NameOfTest"})
+@[Try for yourself! Update the code for the 'ReferralLink' property to pass the test]({"stubs": ["NameOf/CustomerReferral.cs", "NameOf/NameOfTests.cs"],"command": "dotnet.MemberNameTests.NameOfTest"})
 
 @[Try for yourself! Update the code for the 'GetNumbers' method to pass the test]({"stubs": ["Tuples/Numbers.cs", "Tuples/NumbersTest.cs"],"command": "dotnet.NumbersTests.NumbersTest"})
 
