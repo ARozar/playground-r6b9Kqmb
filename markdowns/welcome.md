@@ -4,6 +4,8 @@
 
 @[Try for yourself! Update the code for the 'CalculateCommission' method to pass the test]({"stubs": ["Members/SalesPerson.cs", "Members/MethodTests.cs"],"command": "dotnet.MemberTests.ExpressionBodiedMethodTest"})
 
+@[Try for yourself! Update the code for the 'CalculateCommission' method to pass the test]({"stubs": ["NameOf/CustomerReferral.cs", "NameOf/NameOfTests.cs"],"command": "dotnet.MemberNameTests.NameOfTest"})
+
 C# is a language that has really evolved over the years and is now the standard bearer for all the platforms that use the .Net runtime.   From its origins as a rival to Java in the area of enterprise software development .Net itself seems to be changing from its origins of one runtime with many languages to one language that runs on every platform.  Fortunately the last 2 versions of the language have seen some really nice additions to the syntax that make the code more expressive, terse and maintainable.
 
 Here is a list of five features that I've found increasingly more useful as part of my regular workflow.
