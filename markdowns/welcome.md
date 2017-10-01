@@ -1,16 +1,16 @@
 # Hands-on Demo
 
-@[Try for yourself! Update the code for the 'Team' class to pass the test]({"stubs": ["AutoProp/Team.cs", "AutoProp/TeamTest.cs"],"command": "dotnet.TeamTests.TeamTest"})
+@[Update the code for the 'Team' class to pass the test]({"stubs": ["AutoProp/Team.cs", "AutoProp/TeamTest.cs"],"command": "dotnet.TeamTests.TeamTest"})
 
-@[Try for yourself! Update the code for the 'FullName' property to pass the test]({"stubs": ["Members/SalesPerson.cs", "Members/PropertyTests.cs"],"command": "dotnet.MemberTests.ExpressionBodiedPropertyTest"})
+@[Update the code for the 'FullName' property to pass the test]({"stubs": ["Members/SalesPerson.cs", "Members/PropertyTests.cs"],"command": "dotnet.MemberTests.ExpressionBodiedPropertyTest"})
 
-@[Try for yourself! Update the code for the 'CalculateCommission' method to pass the test]({"stubs": ["Members/SalesPerson.cs", "Members/MethodTests.cs"],"command": "dotnet.MemberTests.ExpressionBodiedMethodTest"})
+@[Update the code for the 'CalculateCommission' method to pass the test]({"stubs": ["Members/SalesPerson.cs", "Members/MethodTests.cs"],"command": "dotnet.MemberTests.ExpressionBodiedMethodTest"})
 
-@[Try for yourself! Update the code for the 'ReferralLink' property to pass the test]({"stubs": ["NameOf/CustomerReferral.cs", "NameOf/NameOfTests.cs"],"command": "dotnet.MemberNameTests.NameOfTest"})
+@[Update the code for the 'ReferralLink' property to pass the test]({"stubs": ["NameOf/CustomerReferral.cs", "NameOf/NameOfTests.cs"],"command": "dotnet.MemberNameTests.NameOfTest"})
 
-@[Try for yourself! Update the code for the 'GetNumbers' method to pass the test]({"stubs": ["Tuples/Numbers.cs", "Tuples/NumbersTest.cs"],"command": "dotnet.NumbersTests.NumbersTest"})
+@[Update the code for the 'GetNumbers' method to pass the test]({"stubs": ["Tuples/Numbers.cs", "Tuples/NumbersTest.cs"],"command": "dotnet.NumbersTests.NumbersTest"})
 
-@[Try for yourself! Update the code for the 'Login' method to pass the test]({"stubs": ["Tuples/Security.cs", "Tuples/SecurityTest.cs"],"command": "dotnet.SecurityTests.LoginTest"})
+@[Update the code for the 'Login' method to pass the test]({"stubs": ["Tuples/Security.cs", "Tuples/SecurityTest.cs"],"command": "dotnet.SecurityTests.LoginTest"})
 
 
 
