@@ -255,7 +255,7 @@ public Reaction Confront(Animal adversary)
     }
 }
 ```
-Again matching on the shape of an object is really cool and there are times such as handling events where this could be really useful as we are often passed an object in this scenario.
+Again matching on the shape of an object is really cool and there are times such as handling events where this could be really useful as we are often passed an object in this scenario or any scenario where the input type is different but the output type is always the same.
 
 The thing that just vexes me slightly is that sometimes a switch statement can be a sign that the Open / Closed principle is being taken somewhat lightly.  If every new implementation results in our switch statement getting bigger, then perhaps something like the Strategy pattern might be in order that would see us inverting the responsibility of handling the implementation of our logic to some common abstraction.  Still, anyone that has worked with Redux can appreciate how effective the old switch statement can be in the right context.
 
