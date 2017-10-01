@@ -6,7 +6,7 @@
 
 @[Try for yourself! Update the code for the 'CalculateCommission' method to pass the test]({"stubs": ["NameOf/CustomerReferral.cs", "NameOf/NameOfTests.cs"],"command": "dotnet.MemberNameTests.NameOfTest"})
 
-@[Try for yourself! Update the code for the 'CalculateCommission' method to pass the test]({"stubs": ["Tuples/Numbers.cs", "Tuples/NumbersTests.cs"],"command": "dotnet.NumbersTest.NumbersTest"})
+@[Try for yourself! Update the code for the 'CalculateCommission' method to pass the test]({"stubs": ["Tuples/Numbers.cs", "Tuples/NumbersTest.cs"],"command": "dotnet.NumbersTests.NumbersTest"})
 
 @[Try for yourself! Update the code for the 'CalculateCommission' method to pass the test]({"stubs": ["Tuples/Security.cs", "Tuples/SecurityTests.cs"],"command": "dotnet.SecurityTests.LoginTest"})
 
