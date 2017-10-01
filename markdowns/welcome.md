@@ -8,7 +8,7 @@
 
 @[Try for yourself! Update the code for the 'CalculateCommission' method to pass the test]({"stubs": ["Tuples/Numbers.cs", "Tuples/NumbersTest.cs"],"command": "dotnet.NumbersTests.NumbersTest"})
 
-@[Try for yourself! Update the code for the 'CalculateCommission' method to pass the test]({"stubs": ["Tuples/Security.cs", "Tuples/SecurityTests.cs"],"command": "dotnet.SecurityTests.LoginTest"})
+@[Try for yourself! Update the code for the 'CalculateCommission' method to pass the test]({"stubs": ["Tuples/Security.cs", "Tuples/SecurityTest.cs"],"command": "dotnet.SecurityTests.LoginTest"})
 
 
 
