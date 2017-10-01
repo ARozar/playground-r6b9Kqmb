@@ -23,6 +23,7 @@ x86/
 build/
 bld/
 [Bb]in/
+[Oo]bj/
 
 msbuild.log
 msbuild.err
@@ -30,3 +31,5 @@ msbuild.wrn
 
 # Visual Studio 2015
 .vs/
+csharp-project/obj/Debug/netcoreapp1.1/csharp-project.Program.cs
+csharp-project/obj/Debug/netcoreapp1.1/csharp-project.csproj.CoreCompileInputs.cache
