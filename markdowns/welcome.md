@@ -1,6 +1,6 @@
 # Hands-on Demo
 
-@[Luke, how many stars are there in these galaxies?]({"stubs": ["Members/SalesPerson.cs"],"command": "dotnet.MemberTests.ExpressionBodiedPropertyTest"})
+@[Luke, how many stars are there in these galaxies?]({"stubs": ["Members/SalesPerson.cs", "Members/PropertyTests.cs"],"command": "dotnet.MemberTests.ExpressionBodiedPropertyTest"})
 
 C# is a language that has really evolved over the years and is now the standard bearer for all the platforms that use the .Net runtime.   From its origins as a rival to Java in the area of enterprise software development .Net itself seems to be changing from its origins of one runtime with many languages to one language that runs on every platform.  Fortunately the last 2 versions of the language have seen some really nice additions to the syntax that make the code more expressive, terse and maintainable.
 
