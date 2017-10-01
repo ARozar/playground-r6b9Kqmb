@@ -1,11 +1,14 @@
+// { autofold
 using System;
 using System.Runtime.CompilerServices;
 using Xunit;
 
 namespace dotnet
 {
+   
     public class TeamTests
     {
+// }
         [Fact]
         public void TeamTest()
         {
@@ -15,5 +18,7 @@ namespace dotnet
 
             Assert.NotNull(team.Players);
         }
+// { autofold        
     }
 }
+// }

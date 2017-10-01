@@ -1,9 +1,10 @@
+// { autofold
 using System;
 using Xunit;
 
 namespace dotnet
 {
-
+// }
     public class SalesPerson
     {
         public string FirstName { get; set; }
@@ -12,5 +13,6 @@ namespace dotnet
         public string FullName => "";
         public decimal CalculateCommission(decimal percentage) => percentage;
     }
-
+// { autofold
 }
+//

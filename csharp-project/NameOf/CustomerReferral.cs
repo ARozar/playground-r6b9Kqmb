@@ -1,3 +1,4 @@
+// { autofold
 using System;
 using System.Linq.Expressions;
 using System.Reflection;
@@ -6,6 +7,7 @@ using Xunit;
 
 namespace dotnet
 {
+// }
     public class CustomerReferral
     {
         public string Email { get; set; }
@@ -22,4 +24,6 @@ namespace dotnet
             return name;
         }
     }
+// { autofold    
 }
+// }

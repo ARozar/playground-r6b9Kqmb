@@ -1,3 +1,4 @@
+// { autofold
 using System;
 using Xunit;
 
@@ -5,7 +6,7 @@ namespace dotnet
 {
     public partial class MemberTests
     {
-
+// }
         [Fact]
         public void ExpressionBodiedPropertyTest()
         {
@@ -15,5 +16,7 @@ namespace dotnet
 
             Assert.True(salesPerson.FullName.EndsWith(salesPerson.LastName));
         }        
+// { autofold
     }
 }
+// }

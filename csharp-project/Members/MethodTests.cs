@@ -1,3 +1,4 @@
+// { autofold
 using System;
 using Xunit;
 
@@ -5,6 +6,7 @@ namespace dotnet
 {
     public partial class MemberTests
     {
+// }
         [Fact]
         public void ExpressionBodiedMethodTest()
         {
@@ -16,6 +18,7 @@ namespace dotnet
             //Given commision percentage of 10 percent we should get 10 percent of 10000
             Assert.Equal(commision, 1000);
         }
-        
+// { autofold        
     }
 }
+// }

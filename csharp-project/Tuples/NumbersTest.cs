@@ -1,3 +1,4 @@
+// { autofold
 using System;
 using System.Runtime.CompilerServices;
 using Xunit;
@@ -6,6 +7,7 @@ namespace dotnet
 {
     public class NumbersTests
     {
+// }        
         [Fact]
         public void NumberTest()
         {
@@ -18,5 +20,7 @@ namespace dotnet
 
             Assert.Equal(Math.Pow(inputTwo, inputTwo), numbers.two);
         }
+// { autofold        
     }
 }
+//
