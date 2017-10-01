@@ -1,5 +1,7 @@
 # Hands-on Demo
 
+@[Try for yourself! Update the code for the 'Team' class to pass the test]({"stubs": ["AutoProp/Team.cs", "AutoProp/TeamTest.cs"],"command": "dotnet.TeamTests.TeamTest"})
+
 @[Try for yourself! Update the code for the 'FullName' property to pass the test]({"stubs": ["Members/SalesPerson.cs", "Members/PropertyTests.cs"],"command": "dotnet.MemberTests.ExpressionBodiedPropertyTest"})
 
 @[Try for yourself! Update the code for the 'CalculateCommission' method to pass the test]({"stubs": ["Members/SalesPerson.cs", "Members/MethodTests.cs"],"command": "dotnet.MemberTests.ExpressionBodiedMethodTest"})
