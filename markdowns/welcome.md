@@ -258,7 +258,8 @@ public Reaction Confront(Animal adversary)
 Again matching on the shape of an object is really cool and there are times such as handling events where this could be really useful as we are often passed an object in this scenario.
 
 The thing that just vexes me slightly is that sometimes a switch statement can be a sign that the Open / Closed principle is being taken somewhat lightly.  If every new implementation results in our switch statement getting bigger, then perhaps something like the Strategy pattern might be in order that would see us inverting the responsibility of handling the implementation of our logic to some common abstraction.  Still, anyone that has worked with Redux can appreciate how effective the old switch statement can be in the right context.
-##Final Thoughts
+
+## Final Thoughts
 It really is a great time to be using both C# and the .Net Framework.  C# continues to evolve in its expressiveness and flexibility making it a great choice for server side processing as well as UI platforms.  That coupled with the increasing performance improvements found in [.Net Core](https://blogs.msdn.microsoft.com/dotnet/2017/06/07/performance-improvements-in-net-core/) and [most notably in Asp.Net Core](https://blogs.msdn.microsoft.com/dotnet/2017/06/07/performance-improvements-in-net-core/) (not the fastest of them all but OMG when compared to where recent versions were) and its ever expanding reach (now an option for the Linux world) the language and platform seem to be headed in a positive and upward trajectory.
 
 PS: If you have a favorite feature that I've missed I'd love to hear about your favorite new aspect of the language.
